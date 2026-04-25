@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Rong Ye Portfolio</title>
+    <meta name="description" content="I’m Rong Ye, a designer and developer creating unique digital experiences. Explore my portfolio, projects, and professional journey." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rong Ye Portfolio" />
+    <meta property="og:description" content="I’m Rong Ye, a designer and developer creating unique digital experiences. Explore my portfolio, projects, and professional journey." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rong Ye Portfolio" />
+    <meta name="twitter:description" content="I’m Rong Ye, a designer and developer creating unique digital experiences. Explore my portfolio, projects, and professional journey." />
+    
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+      dora-viewer, #dora-root {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+    <script src="env.js"></script>
+    <script src="runtime/kiwi.min.js"></script>
+    <script src="runtime/signals.min.js"></script>
+    <script src="runtime/threed_renderer/build/runner.js"></script>
+    <script defer src="runtime/main.dart.js"></script>
+    
+  </head>
+  <body>
+    
+    <dora-viewer
+      id="dora-root"
+      project="0"
+      project-loader="self-hosted"
+      style="width: 100%; height: 100%"
+    ></dora-viewer>
+    
+  </body>
+</html>
